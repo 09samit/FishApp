@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280BE420289BC15D0016EA15 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BE41F289BC15D0016EA15 /* QuizView.swift */; };
+		280BE422289BF9BC0016EA15 /* AnswerResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BE421289BF9BC0016EA15 /* AnswerResultView.swift */; };
+		280BE424289C05360016EA15 /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BE423289C05360016EA15 /* QuizResultView.swift */; };
+		2847BA04289D0425001FCF0A /* PlusJakartaDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2847B9F6289D0425001FCF0A /* PlusJakartaDisplay-Light.otf */; };
+		2847BA05289D0425001FCF0A /* PlusJakartaDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2847B9F7289D0425001FCF0A /* PlusJakartaDisplay-Regular.otf */; };
+		2847BA07289D0425001FCF0A /* PlusJakartaDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2847B9F9289D0425001FCF0A /* PlusJakartaDisplay-Medium.otf */; };
+		2847BA09289D0425001FCF0A /* PlusJakartaDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2847B9FB289D0425001FCF0A /* PlusJakartaDisplay-Bold.otf */; };
+		2871CDD82897F94100D52063 /* FishAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871CDD72897F94100D52063 /* FishAppApp.swift */; };
+		2871CDDA2897F94100D52063 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871CDD92897F94100D52063 /* ContentView.swift */; };
+		2871CDDC2897F94100D52063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2871CDDB2897F94100D52063 /* Assets.xcassets */; };
+		2871CDDF2897F94100D52063 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2871CDDE2897F94100D52063 /* Preview Assets.xcassets */; };
+		2871CDE62897F95000D52063 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871CDE52897F95000D52063 /* HomeView.swift */; };
+		2871CDE82898063200D52063 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871CDE72898063200D52063 /* TabView.swift */; };
+		2871CDEA28980A7C00D52063 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871CDE928980A7C00D52063 /* StatsView.swift */; };
+		2871CDEC28980A8B00D52063 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871CDEB28980A8B00D52063 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280BE41F289BC15D0016EA15 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		280BE421289BF9BC0016EA15 /* AnswerResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerResultView.swift; sourceTree = "<group>"; };
+		280BE423289C05360016EA15 /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		2847B9F6289D0425001FCF0A /* PlusJakartaDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaDisplay-Light.otf"; sourceTree = "<group>"; };
+		2847B9F7289D0425001FCF0A /* PlusJakartaDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaDisplay-Regular.otf"; sourceTree = "<group>"; };
+		2847B9F9289D0425001FCF0A /* PlusJakartaDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaDisplay-Medium.otf"; sourceTree = "<group>"; };
+		2847B9FB289D0425001FCF0A /* PlusJakartaDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaDisplay-Bold.otf"; sourceTree = "<group>"; };
+		2847BA0A289D1536001FCF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2871CDD42897F94100D52063 /* FishApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2871CDD72897F94100D52063 /* FishAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishAppApp.swift; sourceTree = "<group>"; };
+		2871CDD92897F94100D52063 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2871CDDB2897F94100D52063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2871CDDE2897F94100D52063 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2871CDE52897F95000D52063 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2871CDE72898063200D52063 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		2871CDE928980A7C00D52063 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		2871CDEB28980A8B00D52063 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2871CDD12897F94100D52063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2847B9ED289D0425001FCF0A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2847B9F6289D0425001FCF0A /* PlusJakartaDisplay-Light.otf */,
+				2847B9F7289D0425001FCF0A /* PlusJakartaDisplay-Regular.otf */,
+				2847B9F9289D0425001FCF0A /* PlusJakartaDisplay-Medium.otf */,
+				2847B9FB289D0425001FCF0A /* PlusJakartaDisplay-Bold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2871CDCB2897F94100D52063 = {
+			isa = PBXGroup;
+			children = (
+				2871CDD62897F94100D52063 /* FishApp */,
+				2871CDD52897F94100D52063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2871CDD52897F94100D52063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2871CDD42897F94100D52063 /* FishApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2871CDD62897F94100D52063 /* FishApp */ = {
+			isa = PBXGroup;
+			children = (
+				2847BA0A289D1536001FCF0A /* Info.plist */,
+				2847B9ED289D0425001FCF0A /* Font */,
+				2871CDD72897F94100D52063 /* FishAppApp.swift */,
+				2871CDD92897F94100D52063 /* ContentView.swift */,
+				2871CDE72898063200D52063 /* TabView.swift */,
+				2871CDE52897F95000D52063 /* HomeView.swift */,
+				2871CDE928980A7C00D52063 /* StatsView.swift */,
+				2871CDEB28980A8B00D52063 /* ProfileView.swift */,
+				280BE41F289BC15D0016EA15 /* QuizView.swift */,
+				280BE421289BF9BC0016EA15 /* AnswerResultView.swift */,
+				280BE423289C05360016EA15 /* QuizResultView.swift */,
+				2871CDDB2897F94100D52063 /* Assets.xcassets */,
+				2871CDDD2897F94100D52063 /* Preview Content */,
+			);
+			path = FishApp;
+			sourceTree = "<group>";
+		};
+		2871CDDD2897F94100D52063 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2871CDDE2897F94100D52063 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2871CDD32897F94100D52063 /* FishApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2871CDE22897F94100D52063 /* Build configuration list for PBXNativeTarget "FishApp" */;
+			buildPhases = (
+				2871CDD02897F94100D52063 /* Sources */,
+				2871CDD12897F94100D52063 /* Frameworks */,
+				2871CDD22897F94100D52063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishApp;
+			productName = FishApp;
+			productReference = 2871CDD42897F94100D52063 /* FishApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2871CDCC2897F94100D52063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2871CDD32897F94100D52063 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2871CDCF2897F94100D52063 /* Build configuration list for PBXProject "FishApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2871CDCB2897F94100D52063;
+			productRefGroup = 2871CDD52897F94100D52063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2871CDD32897F94100D52063 /* FishApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2871CDD22897F94100D52063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2847BA04289D0425001FCF0A /* PlusJakartaDisplay-Light.otf in Resources */,
+				2847BA07289D0425001FCF0A /* PlusJakartaDisplay-Medium.otf in Resources */,
+				2871CDDF2897F94100D52063 /* Preview Assets.xcassets in Resources */,
+				2847BA09289D0425001FCF0A /* PlusJakartaDisplay-Bold.otf in Resources */,
+				2871CDDC2897F94100D52063 /* Assets.xcassets in Resources */,
+				2847BA05289D0425001FCF0A /* PlusJakartaDisplay-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2871CDD02897F94100D52063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2871CDE62897F95000D52063 /* HomeView.swift in Sources */,
+				2871CDEA28980A7C00D52063 /* StatsView.swift in Sources */,
+				2871CDDA2897F94100D52063 /* ContentView.swift in Sources */,
+				280BE422289BF9BC0016EA15 /* AnswerResultView.swift in Sources */,
+				2871CDE82898063200D52063 /* TabView.swift in Sources */,
+				2871CDEC28980A8B00D52063 /* ProfileView.swift in Sources */,
+				280BE424289C05360016EA15 /* QuizResultView.swift in Sources */,
+				280BE420289BC15D0016EA15 /* QuizView.swift in Sources */,
+				2871CDD82897F94100D52063 /* FishAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2871CDE02897F94100D52063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2871CDE12897F94100D52063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2871CDE32897F94100D52063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FishApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FishApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.backtrace.FishApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2871CDE42897F94100D52063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FishApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FishApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.backtrace.FishApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2871CDCF2897F94100D52063 /* Build configuration list for PBXProject "FishApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2871CDE02897F94100D52063 /* Debug */,
+				2871CDE12897F94100D52063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2871CDE22897F94100D52063 /* Build configuration list for PBXNativeTarget "FishApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2871CDE32897F94100D52063 /* Debug */,
+				2871CDE42897F94100D52063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2871CDCC2897F94100D52063 /* Project object */;
+}
